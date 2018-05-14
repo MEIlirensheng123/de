@@ -1,0 +1,362 @@
+@charset "utf-8";
+.box{
+	border-top: 6px solid red;
+}
+.logo{
+	height: 37px;
+	margin-top:24px;
+}
+.logo p{
+	float: right;
+	margin-top: 20px;
+	font-family: "宋体";
+	font-size:12px;
+	color:#858585;
+}
+.logo a{
+	color:#858585;
+}
+.logo span{
+	margin: 0 10px;
+}
+
+
+.header{
+	margin-top: 8px;
+}
+.gongsi{
+	float: left;
+	margin-left: 57px;
+}
+.header p{
+	float: right;
+	margin-top:10px;
+	font-family: "微软雅黑";
+	font-size:18px;
+	color:#858585;
+	margin-left: 20px;
+}
+
+
+.nava{
+	margin-top: 46px;
+	height: 65px;
+	background: #F4F4F4;
+}
+.nav{
+	padding-top: 17px;
+}
+.nav ul{
+	margin-left: 43px;
+}
+.nav li{
+	float: left;
+	margin-right: 50px;
+	font-family:"微软雅黑" ;
+	font-size:18px;
+}
+.nav a{
+	color:black;
+}
+.nav li:hover a{
+	color:#D11F2D;
+	border-bottom: 2px solid #D11F2D;
+	padding-bottom: 13px;
+}
+.center{
+	background: url('../img/beijing.png');
+	padding-top: 31px;
+}
+.zazhi{
+	position: relative;
+}
+.zuo{
+	float: left;
+	position: absolute;
+	left: 0;top: 73px;
+}
+.zhong{
+	width: 282px;
+	margin-top: 13px;
+}
+.guo{
+	width: 830px;
+	padding:25px  27px 27px 27px;
+	border: 1px solid black;
+	background: white;
+	border-radius: 10px;
+	display: none;
+	margin-top: 13px;
+}
+.guo p{
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 25px;
+	text-indent: 2em;
+}
+.zhong:hover .guo{
+	display: block;
+}
+.tu{
+	float: right;
+	margin-bottom: 55px;
+}
+.wang{
+	padding-bottom: 47px;
+	background: url('../img/beijing2.png');
+}
+.wanzhan{
+	padding-top: 33px;
+}
+.hei{
+	width: 825px;
+	height: 346px;
+	background: black;
+	margin-top: 42px;
+	margin-left: 60px;
+	border: 1px solid black;
+}
+.banner img{
+	width: 100%;
+}
+.Web ul{
+	width: 626px;
+	margin-left: 95px;
+	margin-top: 60px;
+}
+.Web li{
+	float: left;
+	width: 177px;
+	height: 41px;
+	border: 1px solid #546779;
+	margin-right: 44px;
+	margin-bottom: 37px;
+	position: relative;
+}
+.Web .web{
+	margin-right: 0;
+}
+.Web li p{
+	width: 313px;
+	height: 74px;
+	font-family: "宋体";
+	font-size: 14px;
+	background: white;
+	border: 1px solid #CBD4DC;
+	position: absolute;
+	left: 75px;top: -134px;
+	padding: 20px 19px;
+	border-radius: 10px;
+	display: none;
+}
+.Web li:hover p{
+	display: block;
+}
+.YING{
+	height: 500px;
+	background:#4A4A4A ;
+}
+.ying{
+	padding-top: 33px;
+	margin-bottom: 45px;
+}
+.Movies ul{
+	width: 303px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin-left: 118px;
+	margin-bottom: 3px;
+}
+.Movies ul>li{
+	position: relative;
+}
+.Movies ul>li:hover{
+	background: #939191;
+}
+.Movies ul>li>ol{
+	width: 455px;
+	height: 381px;
+	border:1px solid #4A4A4A;
+	background: #CCC7C7;
+	position: absolute;
+	left: 303px;top: -50px;
+	margin-left: 15px;
+	display: none;
+}
+.Movies ul>li>ol>li{
+	width: 393px;
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 23px;
+	margin-left: 33px;
+	margin-top: 30px;
+}
+.Movies ul>li>ol>li>img{
+	float: left;
+	border: 1px solid white;
+	width: 237px;
+	margin-right: 17px;
+}
+.Movies ul>li>ol>li>p{
+	float: left;
+	text-indent: 2em;
+}
+.Movies ul>li:hover ol{
+	display: block;
+}
+.Movies ul>li>.ol2{
+	position: absolute;
+	top: -145px;
+}
+.Movies ul>li>.ol3{
+	position: absolute;
+	top: -240px;
+}
+.XIN{
+	border-top: 1px solid #CECECE;
+	background: url('../img/xin.jpg');
+	height: 492px;
+}
+.xin{
+	margin-top:35px ;
+	margin-bottom: 53px;
+}
+.MA li{
+	width: 188px;
+	float: left;
+	position: relative;
+	margin-right: 33px;
+}
+.MA li img{
+	border: 3px solid #B3D4D7;
+	border-radius: 3px;
+}
+.MA li p{
+	padding-top: 6px;
+	text-align: center;
+	height: 49px;
+	background: #20939C;
+	border-radius: 6px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-family: "宋体";
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.MA li p span{
+	font-size: 14px;
+}
+.MA li em{
+	width: 280px;
+	height: 263px;
+	background: #DCDCDC;
+	padding: 27px 20px 0 20px;
+	text-indent: 2em;
+	font-family: "宋体";
+	font-size: 14px;
+	font-style: normal;
+	line-height: 25px;
+	color: black;
+	display: none;
+	position: absolute;
+	left: 200px;top: 0px;
+
+}
+.MA li:hover em{
+	display: block;
+}
+.YINGXIAO{
+	background: url('../img/yingxiao.png');
+	height: 536px;
+	border-top: 1px solid #AEAEAE;
+}
+.yingxiao{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.sanjiao{
+	float: left;
+	width: 145px;
+	height: 133px;
+}
+.jianjie{
+	float: right;
+	width: 700px;
+	color: white;
+}
+.jianjie  h5{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+.jianjie p{
+	text-indent: 2em;
+	line-height: 24px;
+	font-family: "宋体";
+	font-size: 14px;
+}
+.ZHIDAO{
+	background: #D9E0E5;
+	height: 396px;
+}
+.FENZHI{
+	background: #D9E0E5 ;
+	height: 484px;
+}
+.ditu .ditu1{
+	float: left;
+	width: 426px;
+	height: 355px;
+}
+.ditu .ditu2{
+	float: right;
+	width: 356px;
+}
+.ditu2 .shang ul{
+	background: white;
+	padding-left: 23px;
+	height: 182px;
+}
+.ditu2 .shang li{
+	width: 310px;
+	border-bottom: 1px solid #ccc;
+	font-family: "宋体";
+	font-size: 12px;
+	color: black;
+	height: 56px;
+}
+.ditu2 .shang li p{
+	line-height: 17px;
+	padding-top: 15px;
+}
+.ditu2 .xia ul{
+	padding:15px 0;
+	margin-top: 12px;
+	background: white;
+	padding-left: 23px;
+}
+.ditu2 .xia li{
+	width: 310px;
+	font-family: "宋体";
+	font-size: 12px;
+	color: black;
+	line-height: 23px;
+}
+
+.DIBU{
+		border-top: 1px solid black;
+	background: black;
+	height: 93px;
+	text-align: center;
+	color: white;
+}
+.DIBU p{
+	margin-top: 20px;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.DIBU p span{
+	margin-left: 42px;
+}
